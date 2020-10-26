@@ -1,0 +1,9 @@
+Documentação API
+
+https://documenter.getpostman.com/view/10808728/SzS8rjbc#cc76052f-6601-4645-80e5-ca7aaa36f8ef
+https://api.covid19api.com/total/country/brazil
+
+
+Dataset Coronavirus
+
+https://ourworldindata.org/coronavirus/country/brazil?country=~BRA
