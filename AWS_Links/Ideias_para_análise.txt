@@ -1,0 +1,7 @@
+Artigo Rodrigo Maria
+https://medium.com/@rodrigomariamorgao/panorama-de-casos-do-covid-19-no-brasil-06-2020-34019eb4b75b
+https://github.com/rodrigomariamorgao/portfolio_data_science/blob/master/Panorama_de_casos_do_COVID_19_no_Brasil_06_2020.ipynb
+
+
+Kaggle Covid-19
+https://www.kaggle.com/nitishabharathi/the-story-of-covid-19-in-india-eda-and-prediction#Prediction-
