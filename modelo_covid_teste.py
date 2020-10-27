@@ -154,5 +154,3 @@ plt.plot(xi, yi, '--b')
 plt.plot(xi, mlTanh(xi, cof_u[0], cof_u[1], cof_u[2], cof_u[3], cof_u[4], cof_u[5], cof_u[6], cof_u[7], cof_u[8], cof_u[9]), 'b-')
 
 """## Extrapolação/ previsão"""
-
-print("Mudei o print 1 para testar o merge e removi o print 2")
