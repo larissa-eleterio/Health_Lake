@@ -136,10 +136,10 @@ plt.title("Número de casos ativos por mês");
 """################### Ajustando Modelo epidemiológico ###################"""
 
 def mlTanh(x, a1, a2, a3, b1, b2, b3, c1, c2, c3, d):
-  x1_teste=b1*x + c1
+  x=b1*x + c1
   x2=b2*x + c2
   x3=b3*x + c3
-  return a1*np.tanh(x1_teste) + a2*np.tanh(x2)  + a3*np.tanh(x3)  - d**2
+  return a1*np.tanh(x1) + a2*np.tanh(x2)  + a3*np.tanh(x3)  - d**2
 
 y  = np.array(df["Mortes_por_Dia"], dtype="float")
 x1 = np.array(df['Dias'], dtype="float")
@@ -155,6 +155,4 @@ plt.plot(xi, mlTanh(xi, cof_u[0], cof_u[1], cof_u[2], cof_u[3], cof_u[4], cof_u[
 
 """## Extrapolação/ previsão"""
 
-print("Tive que fazer alteração para testar")
-
-print("Mudei o print 2 para testar merge")
+print("Mudei o print 1 para testar o merge e removi o print 2")
