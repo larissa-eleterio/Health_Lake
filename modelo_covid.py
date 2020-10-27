@@ -136,7 +136,7 @@ plt.title("Número de casos ativos por mês");
 """################### Ajustando Modelo epidemiológico ###################"""
 
 def mlTanh(x, a1, a2, a3, b1, b2, b3, c1, c2, c3, d):
-  x=b1*x + c1
+  x1=b1*x + c1
   x2=b2*x + c2
   x3=b3*x + c3
   return a1*np.tanh(x1) + a2*np.tanh(x2)  + a3*np.tanh(x3)  - d**2
@@ -152,5 +152,3 @@ yi = list(map(lambda x: mlTanh(x, *cof_u), xi))
 plt.plot(x1, y, 'rD')
 plt.plot(xi, yi, '--b')
 plt.plot(xi, mlTanh(xi, cof_u[0], cof_u[1], cof_u[2], cof_u[3], cof_u[4], cof_u[5], cof_u[6], cof_u[7], cof_u[8], cof_u[9]), 'b-')
-
-"""## Extrapolação/ previsão"""
