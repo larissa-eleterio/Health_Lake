@@ -21,4 +21,5 @@ payload = {}
 headers= {} 
 response = requests.request("GET", url, headers=headers, data = payload)
 
-#df = pd.json_normalize(response.json())
+json_list = response.json()
+#df = pd.json_normalize(json_list)
