@@ -31,3 +31,4 @@ def feature_engineering(lista):
     df['Dias'] = (df.index + 1 ).astype('float64')
     
     return df
+    
